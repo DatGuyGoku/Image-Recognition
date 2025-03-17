@@ -1,0 +1,21 @@
+body
+{
+background-color: coral;
+color: whitesmoke;
+}
+.heading
+{
+    width: 80%;
+    font-size: 22px;
+    font-family: fantasy;
+}
+#camera
+{
+    height: 300px;
+    width: 350px;
+    border: 2px dotted orangered;
+}
+.name_o_objects,#result_object_name,#result_object_accuracy
+{
+    color: skyblue;
+}

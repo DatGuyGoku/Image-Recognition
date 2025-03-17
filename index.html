@@ -1,0 +1,58 @@
+ 
+<html>
+  <head>
+    <title>Image recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+      <h3 class="btn btn-default heading">Touche de Gras</h3>
+      <br><br>
+
+      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+      <b class="name_o_objects">
+       notebook
+        <hr>
+      keyboard
+        <hr>
+        Kelly
+        <hr>
+        trophy
+        <hr>
+        yearbook
+        <hr>
+        mouse
+        <hr>
+      </b>
+      <label>Webcam View - </label>
+      <div id="camra"></div>
+      <br><br>
+      <div id="rsult"></div>
+      <br><br>
+      <button class="btn btn-info" onclick="take_snapshot()">Take a fancey imahe</button>
+      <br><br>
+      <button class="btn btn-danger" onclick="check()">Cheqe de imahe</button>
+      <br><br>
+
+      <p style="font-size: 22px;">Object :  <span id="result_object_name"></span></p>
+      <p style="font-size: 22px;">Accuracy :  <span id="result_object_accuracy"></span></p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
